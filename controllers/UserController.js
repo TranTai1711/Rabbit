@@ -26,7 +26,7 @@ module.exports = {
                 role, 
                 createDate
             });
-            mq.publish('user', 'created_user',JSON.stringify(user))
+            // mq.publish('user', 'created_user',JSON.stringify(user))
             // const salt = await bcrypt.genSalt(10);
             // user.password = await bcrypt.hash(password, salt);
             // console.log({user});
